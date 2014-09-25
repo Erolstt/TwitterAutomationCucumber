@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.erol.twitter.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 56.538 sec <<< FAILURE!
+Then I should see \"serhat\" in the search result(Scenario: Searching given username)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<@[serha]t> but was:<@[erolst]t>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.erol.twitter.StepsForLogin.verifySearchedUser(StepsForLogin.java:61)
+	at ?.Then I should see "serhat" in the search result(loginFeature.feature:12)
+Scenario: Searching given username  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<@[serha]t> but was:<@[erolst]t>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.erol.twitter.StepsForLogin.verifySearchedUser(StepsForLogin.java:61)
+	at ?.Then I should see "serhat" in the search result(loginFeature.feature:12)
